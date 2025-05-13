@@ -4,5 +4,8 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7770956707:AAEhptjrX5d_LrFh63toMMbd_45a0aYN4ks
     plan: free
     autoDeploy: true
